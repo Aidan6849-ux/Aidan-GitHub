@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .receipttable {
+    width: 400px;
+    margin: 0 auto;
+    font-family: "Courier New", monospace;
+    font-size: 12pt;
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+  
+  .receipttable td {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 8px;
+    vertical-align: top;
+  }
+  
+  .receipttable .mainhead {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14pt;
+  }
+  
+  .receipttable .section-title {
+    padding: 10px 5px;
+  }
+  
+  .label {
+    text-align: left;
+    white-space: nowrap;
+  }
+  
+  .amount {
+    text-align: right;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+
+  /* I could not get the vertical line down the centre like in the assignment
+  /* instructions. I also wasn't able to match the black filled box at the bottom of
+  /* receipt either.
